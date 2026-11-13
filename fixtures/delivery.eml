@@ -1,0 +1,29 @@
+Subject: =?utf-8?b?5o6I5p2D5pWw5o2u5Lqk5LuY?=
+From: supplier@example.invalid
+To: receiver@example.invalid
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4865222351278452632=="
+
+--===============4865222351278452632==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+6K+35oyJ5Lqk5LuY5riF5Y2V5qC45a+56ZmE5Lu244CCCg==
+
+--===============4865222351278452632==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename*=utf-8''%E7%9B%AE%E5%BD%95.csv
+MIME-Version: 1.0
+
+aWQsbmFtZQphLOi1hOa6kOeUsgo=
+
+--===============4865222351278452632==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename*=utf-8''%E7%9B%AE%E5%BD%95.csv
+MIME-Version: 1.0
+
+aWQsbmFtZQpiLOi1hOa6kOS5mQo=
+
+--===============4865222351278452632==--

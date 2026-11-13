@@ -1,0 +1,43 @@
+{
+  "kind": "mail-acquisition",
+  "attachments": [
+    {
+      "filename": "目录.csv",
+      "content": "id,name\na,资源甲\n"
+    },
+    {
+      "filename": "目录.csv",
+      "content": "id,name\nb,资源乙\n"
+    }
+  ],
+  "delivery_manifest": [
+    {
+      "uidvalidity": 101,
+      "uid": 2,
+      "part": "2",
+      "decoded_length": 20,
+      "sha256": "06d3c8c2fddb2dcb35ed0f3aee44093b0f011235688878dc9c111b1bbfe5d850"
+    },
+    {
+      "uidvalidity": 101,
+      "uid": 2,
+      "part": "3",
+      "decoded_length": 20,
+      "sha256": "e003cdd830e76812f010b76e695bdc3aa50b41671ebe7501e8abf0e83880e73b"
+    },
+    {
+      "uidvalidity": 101,
+      "uid": 5,
+      "part": "2",
+      "decoded_length": 20,
+      "sha256": "06d3c8c2fddb2dcb35ed0f3aee44093b0f011235688878dc9c111b1bbfe5d850"
+    },
+    {
+      "uidvalidity": 101,
+      "uid": 5,
+      "part": "3",
+      "decoded_length": 20,
+      "sha256": "e003cdd830e76812f010b76e695bdc3aa50b41671ebe7501e8abf0e83880e73b"
+    }
+  ]
+}

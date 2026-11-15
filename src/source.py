@@ -104,6 +104,9 @@ def make_server(port=0):
                             self.line(tag + ' BAD malformed FETCH'); continue
                         uid, request = int(match[1]), match[2]
                         if uid in mailbox.disappear:
+                            # 只在首次 FETCH 时模拟一次 EXPUNGE；之后该 UID
+                            # 正常保持已消失状态，不影响其余邮件的检索。
+                            mailbox.disappear.discard(uid)
                             mailbox.messages.pop(uid, None)
                         if uid in mailbox.messages:
                             sequence = sorted(mailbox.messages).index(uid) + 1
